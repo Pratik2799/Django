@@ -10,9 +10,18 @@
 pip install django
 ```
 
+## or 
+
+
+ you can install it from the requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
 ## usage
 
-* navigate to django folder and run:
+Navigate to django folder and run:
 
 ```bash
 python manage.py runserver
