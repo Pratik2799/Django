@@ -1,49 +1,16 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-.row{
-    float: left ;
-    margin: auto;
-    width: 25%;
-    padding: 0 10px;
-} 
-.row {margin: 0 -5px;}
-
-*{
-    font-family: 'Roboto Condensed', sans-serif;
-}
-nav{
-    height: 50px;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-}
-.svg-icon {
-    margin: 12px;
-    width: 1.75em;
-    height: 1.75em;
-  }
-  
-  /* .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-    fill: #4691f6;
-  }
-  
-  .svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-  } */
-.btn{
-    margin-bottom: 12px;
-    height: 35px;
-    /* width: 100px; */
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+.navbar{
+    height: auto !important;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    box-shadow: 5px 5px 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
 
 }
 img{
-  margin: 3px;
-  
-  border-radius:50% ;
+    border-radius: 50%;
 }
-strong{
-  margin-bottom: 50px;
+*{
+    font-family: 'Roboto Condensed', sans-serif;
 }
